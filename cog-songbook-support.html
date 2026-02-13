@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Spiritual Songs Support</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f7f4ef;
+        --card: #ffffff;
+        --text: #1d1a16;
+        --muted: #4a4238;
+        --accent: #0b5c5a;
+        --accent-dark: #084442;
+        --border: #e3ddd3;
+        --focus: #ffbf47;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Georgia", "Times New Roman", serif;
+        background: radial-gradient(circle at top, #fff8ee 0%, var(--bg) 55%, #f1ede6 100%);
+        color: var(--text);
+        line-height: 1.6;
+      }
+
+      header,
+      main,
+      footer {
+        width: min(960px, 92vw);
+        margin: 0 auto;
+      }
+
+      header {
+        padding: 2.5rem 0 1.5rem;
+      }
+
+      h1 {
+        font-size: clamp(1.9rem, 3vw, 2.6rem);
+        margin: 0 0 0.5rem;
+        letter-spacing: 0.01em;
+      }
+
+      .subtitle {
+        color: var(--muted);
+        font-size: clamp(1rem, 2.2vw, 1.15rem);
+        max-width: 46rem;
+      }
+
+      main {
+        display: grid;
+        gap: 1.25rem;
+        padding-bottom: 2.5rem;
+      }
+
+      section {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 1.25rem 1.4rem;
+        box-shadow: 0 8px 20px rgba(20, 18, 15, 0.06);
+      }
+
+      h2 {
+        font-size: 1.25rem;
+        margin: 0 0 0.5rem;
+      }
+
+      ul {
+        margin: 0.75rem 0 0;
+        padding-left: 1.2rem;
+      }
+
+      li {
+        margin-bottom: 0.5rem;
+        color: var(--muted);
+      }
+
+      a {
+        color: var(--accent);
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      a:hover {
+        color: var(--accent-dark);
+        text-decoration: underline;
+      }
+
+      a:focus,
+      a:focus-visible {
+        outline: 3px solid var(--focus);
+        outline-offset: 2px;
+        border-radius: 6px;
+      }
+
+      .inline-note {
+        color: var(--muted);
+        margin: 0.35rem 0 0;
+      }
+
+      footer {
+        padding: 1.5rem 0 2rem;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+
+      @media (min-width: 720px) {
+        main {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .full {
+          grid-column: span 2;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Church of God - Spiritual Songs Support</h1>
+      <p class="subtitle">
+        Support page for Church of God - Spiritual Songs by Gideon Paul. Find quick answers, troubleshooting
+        steps, and the best way to reach us.
+      </p>
+    </header>
+    <main>
+      <section>
+        <h2>Contact Support</h2>
+        <p>
+          Email us at
+          <a href="mailto:gidzpaul95@gmail.com">gidzpaul95@gmail.com</a>.
+        </p>
+        <p class="inline-note">Typical response time: 24–72 hours.</p>
+      </section>
+      <section>
+        <h2>Privacy Policy</h2>
+        <p>
+          Review our privacy policy here:
+          <a href="https://gideondev.github.io/cog-privacy-policy.html">
+            https://gideondev.github.io/cog-privacy-policy.html
+          </a>
+        </p>
+      </section>
+      <section class="full">
+        <h2>Common Help</h2>
+        <ul>
+          <li>Install or update issues: confirm you have a stable internet connection and enough storage.</li>
+          <li>App not opening: restart your device, then try opening the app again.</li>
+          <li>Lyrics not displaying: ensure the song is fully loaded and try switching to another song and back.</li>
+          <li>Text size or layout reset: check in-app settings, or reinstall to restore defaults.</li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      &copy; 2026 Gideon Paul. Spiritual Songs support.
+    </footer>
+  </body>
+</html>
